@@ -2643,7 +2643,7 @@ export class MetadataCache extends Events {
      */
     on(name: 'resolve', callback: (file: TFile) => any, ctx?: any): EventRef;
     /**
-     * Called when all files has been resolved. This will be fired each time files get modified after the initial load.
+     * Called when all files have been resolved. This will be fired each time files get modified after the initial load.
      * @public
      */
     on(name: 'resolved', callback: () => any, ctx?: any): EventRef;
